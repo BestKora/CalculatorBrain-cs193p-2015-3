@@ -11,7 +11,7 @@ struct Statistics:Printable {
         let minString =  " \n min = " + formatter.stringFromNumber(min)!
         let maxString =  " \n max = " + formatter.stringFromNumber(max)!
         let avgString =  " \n avg = " + formatter.stringFromNumber(avg)!
-        let string = "num = \(num)" +
+        let string = " num = \(num)" +
                             minString +
                             maxString +
                             avgString + " \n"
